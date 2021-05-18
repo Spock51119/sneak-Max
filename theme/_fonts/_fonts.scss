@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Intro-Regular";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Intro-Regular"),
+    url("/fonts/Intro-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Intro-Book";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Intro-Book"),
+    url("/fonts/Intro-Book.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Intro-Bold";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Intro-Bold"),
+    url("/fonts/Intro-Bold.woff2") format("woff2");
+}

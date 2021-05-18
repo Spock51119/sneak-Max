@@ -1,0 +1,48 @@
+@import "./_reset/reset";
+@import "./_fonts/fonts";
+// @import "./_common/common";
+
+$bg: #484283;
+$accent: #f14f4f;
+$text: #444b58;
+$cameo: #dbbba9;
+$sec-bg: #fff4ee;
+$gray: #b2b5bb;
+
+html,
+body,
+#__nuxt,
+#__layout,
+.container {
+  height: 100%;
+}
+
+body {
+  font-family: "Intro", sans-serif;
+  line-height: 200%;
+  color: $text;
+}
+
+.stop-scroll {
+  overflow: hidden;
+}
+
+.container {
+  width: 94%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.title-section {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: "Intro Bold", sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  color: $text;
+
+  &_white {
+    color: #fff;
+  }
+}
